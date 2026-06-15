@@ -3,8 +3,8 @@ def saludar(nombre):
     return f"¡Hola, {nombre}!"
 
 def main():
-    nombre = input("Ingresa tu nombre: ")
-    mensaje = saludar(nombre)
+    name = input("Ingresa tu nombre: ")
+    mensaje = saludar(name)
     print(mensaje)
 
 if __name__ == "__main__":
